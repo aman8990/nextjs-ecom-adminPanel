@@ -50,7 +50,7 @@ function OrderForm() {
       w-full mx-auto rounded-lg"
       >
         <div className="flex items-center flex-col my-10">
-          <h1 className="text-3xl md:text-4xl mb-8">Create New Product</h1>
+          <h1 className="text-3xl md:text-4xl mb-8">Order Details</h1>
           <div className="w-full px-6 md:px-16">
             <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
               <Input
