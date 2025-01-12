@@ -1,6 +1,6 @@
 function Button({ children, onClick, type, disabled, color }) {
   const baseClass =
-    'min-w-28 h-10 flex items-center justify-center rounded-md text-white';
+    'min-w-20 sm:min-w-28 h-10 flex items-center justify-center rounded-md text-white';
   const colorClass = {
     green: 'bg-green-600 hover:bg-green-500',
     red: 'bg-red-600 hover:bg-red-500',

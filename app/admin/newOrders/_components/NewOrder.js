@@ -95,7 +95,7 @@ function NewOrder({ order, data, mutate }) {
         <div>Email : {order.email}</div>
       </div>
 
-      <div className="flex items-center gap-6 no-print">
+      <div className="flex items-center gap-3 sm:gap-6 no-print">
         <Button color="green" onClick={() => handleClick('ACCEPTED')}>
           {isLoading === 'ACCEPTED' ? <SpinnerMini /> : 'Accept'}
         </Button>
