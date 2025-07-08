@@ -7,12 +7,10 @@ A modern and secure admin dashboard for managing an e-commerce platform, built u
 
 🔗 [Live Site](https://nextjs-ecom-admin-panel.vercel.app)
 
----
 
 🛠 **Note:**
 - This is the admin panel for the project **nextjs-ecom**  
   → [E-com Repo](https://github.com/aman8990/nextjs-ecom)
-  
   → [E-com Live Site](https://nextjs-ecom-ochre.vercel.app)
 - Only users with **admin privileges** can log in using **credentials + OTP**.
 
