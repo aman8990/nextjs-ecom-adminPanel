@@ -71,12 +71,12 @@ project/
   app/
     ├── api/                 # API endpoints (auth, orders, etc.)
     ├── _actions/            # Next.js Server Actions (e.g. current user, session)
-    ├── _context/            # React Contexts (e.g., Auth context, Toast context)
+    ├── _context/            # React Contexts (e.g. Auth context, Toast context)
     ├── _components/         # Reusable UI components (buttons, input etc.)
     ├── _hooks/              # Custom hooks (useNewOrders, useAllProducts etc.)
     ├── _libs/               # Core libraries (prismadb, emailSender, fetcher etc.)
     ├── (site)/              # User login page
-    ├── admin/               # Admin dashboard routes
+    ├── admin/               # Admin routes(protected)
     │   └── dashboard/       # Main admin dashboard view
     │   └── newOrders/       # Page to review new orders
     │   └── updateProduct/   # Product update form
