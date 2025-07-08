@@ -31,7 +31,7 @@ A modern and secure admin dashboard for managing an e-commerce platform, built u
 
 ---
 
-## 🧰 Tech Stack
+## 🛠️ Tech Stack
 
 ### Frontend:
 - **Next.js 15 (App Router)**
@@ -57,3 +57,33 @@ A modern and secure admin dashboard for managing an e-commerce platform, built u
 - **React Hook Form** – Form management
 - **React Icons** – Icon library
 - **React Hot Toast** – Notifications
+
+---
+
+## 📂 Project Structure
+
+```bash
+project/
+  ├── middleware.js          # Middleware for route protection (auth guard)
+  ├── prisma/
+  │   └── schema.prisma      # Prisma schema for MongoDB
+
+  app/
+    ├── api/                 # API endpoints (auth, orders, etc.)
+    ├── _actions/            # Next.js Server Actions (e.g. current user, session)
+    ├── _context/            # React Contexts (e.g., Auth context, Toast context)
+    ├── _components/         # Reusable UI components (buttons, input etc.)
+    ├── _hooks/              # Custom hooks (useNewOrders, useAllProducts etc.)
+    ├── _libs/               # Core libraries (prismadb, emailSender, fetcher etc.)
+    ├── (site)/              # User login page
+    ├── admin/               # Admin dashboard routes
+    │   └── dashboard        # Main admin dashboard view
+    │   └── newOrders        # Page to review new orders
+    │   └── updateProduct    # Product update form
+    │   └── orderDetails     # Detailed order view
+    │   ||                   # More Routes
+    │
+    ├── layout.js            # Root layout for the app
+    ├── globals.css          # Global Tailwind styles
+    └── not-found.js         # Custom 404 error page
+```
