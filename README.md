@@ -5,7 +5,7 @@ A modern and secure admin dashboard for managing an e-commerce platform, built u
 
 ## 🚀 Live Demo
 
-🔗 [Live Site](https://nextjs-ecom-admin-panel.vercel.app)
+**🔗 [Live Site](https://nextjs-ecom-admin-panel.vercel.app)**
 
 🛠 **Note:**
 - This is the admin panel for the project **nextjs-ecom**  
