@@ -11,7 +11,7 @@ function NotFound({ title }) {
         </h1>
         <Link
           href="/"
-          className="flex bg-accent-50 text-white rounded-md px-6 py-3 text-lg"
+          className="flex bg-accent-50 text-black rounded-md px-6 py-3 text-lg"
         >
           Back to Home
         </Link>
