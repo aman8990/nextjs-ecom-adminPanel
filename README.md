@@ -77,13 +77,64 @@ project/
     ├── _libs/               # Core libraries (prismadb, emailSender, fetcher etc.)
     ├── (site)/              # User login page
     ├── admin/               # Admin dashboard routes
-    │   └── dashboard        # Main admin dashboard view
-    │   └── newOrders        # Page to review new orders
-    │   └── updateProduct    # Product update form
-    │   └── orderDetails     # Detailed order view
+    │   └── dashboard/       # Main admin dashboard view
+    │   └── newOrders/       # Page to review new orders
+    │   └── updateProduct/   # Product update form
+    │   └── orderDetails/    # Detailed order view
     │   ||                   # More Routes
     │
     ├── layout.js            # Root layout for the app
     ├── globals.css          # Global Tailwind styles
     └── not-found.js         # Custom 404 error page
 ```
+
+---
+
+# 🧪 Getting Started
+
+Follow these steps to set up the project locally.
+
+## 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/nextjs-ecom-dashboard.git
+cd nextjs-ecom-dashboard
+```
+
+## 2. Install Dependencies
+
+```bash
+npm install
+```
+
+## 3. Set Up Environment Variables
+
+```bash
+DATABASE_URL=mongodb+srv://<username>:<password>@cluster.mongodb.net/dbname
+NEXTAUTH_SECRET=your_nextauth_secret
+NEXTAUTH_URL=http://localhost:3000
+
+EMAIL_USERNAME=your_name@service.com
+EMAIL_PASSWORD=your_password
+EMAIL_FROM=your_email@gmail.com
+
+```
+
+## 4. Generate Prisma Client
+
+```bash
+npx prisma generate
+```
+
+## 5. Start Development Server
+
+```bash
+npm run dev
+```
+
+---
+
+## 📬 Contact
+
+Created by [Aman Kumar](https://github.com/aman8990)  
+📧 Email: [amandalal899@gmail.com](mailto:amandalal899@gmail.com)
