@@ -32,3 +32,28 @@ A modern and secure admin dashboard for managing an e-commerce platform, built u
 ---
 
 ## 🧰 Tech Stack
+
+### Frontend:
+- **Next.js 15 (App Router)**
+- **React 19**
+- **Tailwind CSS**
+- **SWR (Stale-While-Revalidate)**
+
+### Backend:
+- **Next.js API Routes**
+- **Prisma ORM with Mongodb**
+
+### Auth & Access Control:
+- **NextAuth.js**
+- **Credentials + OTP-based login for Admins**
+- **@next-auth/prisma-adapter** – Session & user sync with DB
+
+### Tools & Utilities:
+- **Axios** – API requests
+- **Bcrypt** – Password hashing
+- **Date-fns** – Date utilities
+- **Nodemailer** – Email service
+- **pdfmake** – PDF invoice generation
+- **React Hook Form** – Form management
+- **React Icons** – Icon library
+- **React Hot Toast** – Notifications
